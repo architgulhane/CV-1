@@ -64,5 +64,14 @@ while cap.isOpened():
 
             # Classify
             detected_alphabet = classify_hand(hand_landmarks.landmark)
+cv2.putText(frame, f"Detected: {detected_alphabet}", (10, 50),
+                cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0,255,0), 3)
 
+    cv2.imshow("Alphabet Detection", frame)
+
+    if cv2.waitKey(1) & 0xFF == 27:  # ESC to quit
+        break
+
+cap.release()
+cv2.destroyAllWindows()
 
