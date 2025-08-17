@@ -16,24 +16,6 @@ A real-time computer vision application that detects and counts fingers using Op
 - Webcam or camera device
 - Operating System: Windows 10/11, macOS 10.14+, or Ubuntu 18.04+
 
-## 🛠️ Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/architgulhane/GIT-MCP.git
-   cd GIT-MCP
-   ```
-
-2. **Install required dependencies**
-   ```bash
-   pip install opencv-python mediapipe numpy
-   ```
-
-   Or install from requirements file:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ## 📦 Dependencies
 
 - `opencv-python` (4.5.0+) - Computer vision library
