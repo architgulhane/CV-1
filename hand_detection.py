@@ -53,8 +53,7 @@ def simple_hand_detection():
                     finger_count = max(0, min(finger_count, 5))  # Clamp to 0-5
                 else:
                     finger_count = 0
-                
-                # Display finger count
+              
                 cv2.putText(frame, f'Fingers (approx): {finger_count}', (50, 50), 
                            cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
             else:
