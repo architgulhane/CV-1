@@ -25,8 +25,7 @@ def simple_hand_detection():
             
         # Flip frame horizontally for mirror effect
         frame = cv2.flip(frame, 1)
-        
-        # Apply background subtraction
+    
         fgMask = backSub.apply(frame)
         
         # Find contours
