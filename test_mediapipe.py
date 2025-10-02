@@ -11,7 +11,6 @@ try:
     mp_draw = mp.solutions.drawing_utils
     print("MediaPipe Hands initialized successfully!")
     
-    # Test with camera
     cap = cv2.VideoCapture(0)
     print("Starting MediaPipe hand detection test...")
     print("Show your hand to the camera. Press 'q' to quit.")
