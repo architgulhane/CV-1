@@ -140,12 +140,6 @@ python test_mediapipe.py
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
-
-**Archit Gulhane**
-- GitHub: [@architgulhane](https://github.com/architgulhane)
-- Project Link: [https://github.com/architgulhane/GIT-MCP](https://github.com/architgulhane/GIT-MCP)
-
 ## 🙏 Acknowledgments
 
 - [MediaPipe](https://mediapipe.dev/) - Google's framework for building perception pipelines
